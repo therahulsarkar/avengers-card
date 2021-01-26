@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img{
+position: absolute;
+width: 25%;
+bottom: 66%;
+left: 35%;
+}
+
+
+.card{
+    top: 50px;
+    position: relative;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    transition: 0.5s;
+}
+
+.card:hover img {
+left: 80%;
+height: 400px;
+
+}
+
+
+.card .content{
+position: relative;
+width: 50%;
+left: 20%;
+padding: 20px 20px 20px 40px;
+opacity: 0;
+visibility: hidden;
+transition: 0.5s;
+}
+
+.card:hover .content{
+    left:  0%;
+    visibility: visible;
+    opacity: 1;
+}
+.card .content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+.card .content p{
+    color: #fff;
+    width: 150%;
+    font-size: 0.5em;
+    
+}
+.card .content a{
+   position: relative;
+   display: inline-block;
+   color: #111;
+   padding: 10px;
+   font-weight: 500;
+   font-size: .7em;
+   border-radius: 10px;
+   background: #fff;
+   margin-top: 10px; 
+   text-decoration: none;
+}
+
+/* spider man  */
+
+.card2{
+    top: 50px;
+    position: relative;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card2 img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    transition: 0.5s;
+}
+
+.card2:hover img {
+left: 80%;
+height: 400px;
+
+}
+
+
+.card2 .content2{
+position: relative;
+width: 50%;
+left: 20%;
+padding: 20px 20px 20px 40px;
+opacity: 0;
+visibility: hidden;
+transition: 0.5s;
+}
+
+.card2:hover .content2{
+    left:  0%;
+    visibility: visible;
+    opacity: 1;
+}
+.card2 .content2 h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+.card2 .content2 p{
+    color: #fff;
+    width: 150%;
+    font-size: 0.5em;
+    
+}
+.card2 .content2 a{
+   position: relative;
+   display: inline-block;
+   color: #111;
+   padding: 10px;
+   font-weight: 500;
+   font-size: .7em;
+   border-radius: 10px;
+   background: #fff;
+   margin-top: 10px; 
+   text-decoration: none;
+}
+
+/* iron man */
+
+
+.card3{
+    top: 50px;
+    position: relative;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.card3 img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    transition: 0.5s;
+}
+
+.card3:hover img {
+left: 70%;
+height: 360px;
+
+}
+
+
+.card3 .content3{
+position: relative;
+width: 50%;
+left: 20%;
+padding: 20px 20px 20px 40px;
+opacity: 0;
+visibility: hidden;
+transition: 0.5s;
+}
+
+.card3:hover .content3{
+    left:  0%;
+    visibility: visible;
+    opacity: 1;
+}
+.card3 .content3 h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+.card3 .content3 p{
+    color: #fff;
+    width: 150%;
+    font-size: 0.5em;
+    
+}
+
+.card3 .content3 a{
+   position: relative;
+   display: inline-block;
+   color: #111;
+   padding: 10px;
+   font-weight: 500;
+   font-size: .7em;
+   border-radius: 10px;
+   background: #fff;
+   margin-top: 10px; 
+   text-decoration: none;
+}
+
+/* captain america */
+.card4{
+    top: 50px;
+    position: relative;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.card4 img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    transition: 0.5s;
+}
+
+.card4:hover img {
+left: 68%;
+height: 320px;
+bottom: 10%;
+}
+
+
+.card4 .content4{
+position: relative;
+width: 50%;
+left: 0%;
+padding: 20px 20px 20px 40px;
+opacity: 0;
+visibility: hidden;
+transition: 0.5s;
+}
+
+.card4:hover .content4{
+    left:  0%;
+    visibility: visible;
+    opacity: 1;
+}
+.card4 .content4 h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+.card4 .content4 p{
+    color: #fff;
+    width: 150%;
+    font-size: 0.5em;
+
+    
+}
+.card4 .content4 a{
+   position: relative;
+   display: inline-block;
+   color: #111;
+   padding: 10px;
+   font-weight: 500;
+   font-size: .7em;
+   border-radius: 10px;
+   background: #fff;
+   margin-top: 10px; 
+   text-decoration: none;
+}
